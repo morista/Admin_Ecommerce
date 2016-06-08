@@ -4,19 +4,19 @@
           <h1 class="page-header">Catégorie</h1>
           
               <div class="row">
-				<form method="post" action="ajouterCategorie" class="form-signin" >
+				<form method="post" action="ajouterCategorie" >
           			<h2>Ajouter un nouveau Catégorie</h2>
-          			<div class="row">
-          				<label class="col-md-2" for="nom">Nom Catégorie:</label>
-          				<input class="col-md-2 " type="text" name="nom" id="nom" size="20"/>
-          			</div><br>
           			
-          			<div class="row">
-          				<label class="col-md-2" for="description">Description:</label>
-          				<input class="col-md-2 " type="text" name="description"/>
-          			</div><br>
+        			  <div class="form-group">
+          				<label for="nom">Nom Catégorie:</label>
+          				<input class="form-control" type="text" id="nom" name="nom"/>
+					  </div>
+   					  <div class="form-group">
+          				<label for="description">Description:</label>
+          				<input class="form-control" type="text" name="description"/>
+					  </div>
        
-          			<button class="btn btn-primary" type="submit">Ajouter </button>  			          			
+          			<button class="btn btn-default" type="submit">Ajouter </button>  			          			
                 </form>
 		      </div>
       </div>

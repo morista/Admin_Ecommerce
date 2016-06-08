@@ -2,15 +2,15 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
   <servlet>
     <servlet-name>Inscription</servlet-name>
-    <servlet-class>mor.form.servlets.Inscription</servlet-class>
+    <servlet-class>site.admin.servlets.Inscription</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Connexion</servlet-name>
-    <servlet-class>mor.form.servlets.Connexion</servlet-class>
+    <servlet-class>site.admin.servlets.Connexion</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Accueil</servlet-name>
-    <servlet-class>mor.form.servlets.Accueil</servlet-class>
+    <servlet-class>site.admin.servlets.Accueil</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Accueil</servlet-name>
@@ -18,11 +18,11 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>Produit</servlet-name>
-    <servlet-class>mor.form.servlets.Produit</servlet-class>
+    <servlet-class>site.admin.servlets.Produit</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Deconnexion</servlet-name>
-    <servlet-class>mor.form.servlets.Deconnexion</servlet-class>
+    <servlet-class>site.admin.servlets.Deconnexion</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Deconnexion</servlet-name>
@@ -30,11 +30,11 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>SupprimeP</servlet-name>
-    <servlet-class>mor.form.servlets.SupprimeP</servlet-class>
+    <servlet-class>site.admin.servlets.SupprimeP</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>Categorie</servlet-name>
-  	<servlet-class>mor.form.servlets.Categorie</servlet-class>
+  	<servlet-class>site.admin.servlets.Categorie</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>Categorie</servlet-name>
@@ -50,7 +50,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>Utilisateur</servlet-name>
-    <servlet-class>mor.form.servlets.Utilisateur</servlet-class>
+    <servlet-class>site.admin.servlets.Utilisateur</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Utilisateur</servlet-name>
@@ -58,7 +58,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>AjouterProduit</servlet-name>
-    <servlet-class>mor.form.servlets.AjouterProduit</servlet-class>
+    <servlet-class>site.admin.servlets.AjouterProduit</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>AjouterProduit</servlet-name>
@@ -80,7 +80,7 @@
   </jsp-config>
   <filter>
     <filter-name>Restriction</filter-name>
-    <filter-class>mor.form.filter.Restriction</filter-class>
+    <filter-class>site.admin.filter.Restriction</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>Restriction</filter-name>
